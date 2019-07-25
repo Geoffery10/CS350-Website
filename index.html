@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="generator" content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
+        <title>Main</title>
+        <link rel="icon" type="image/png" href="favicon.png" sizes="16x16" />
+        <link rel="stylesheet" href="CSS/style.css" type="text/css" />
+    </head>
+    <body>
+        <div class="main">
+            <header>
+                <div class="banner">
+                    <div class="centering">
+                        <td><a href="index.html"><img class="buttons" src="./refs/home_button.png" alt="Home"></a></td>
+                            <td><a href="projects.html"><img class="buttons" src="./refs/projects_button.png" alt="Projects"></a></td>
+                                <td><a href="misc.html"><img class="buttons" src="./refs/miscellaneous_button.png" alt="Miscellanceous"></a></td>
+                                    <img src="refs/Banner.jpg" alt="banner" class="banner" />
+                                </div>
+                            </div>
+                            <figure>
+                                <img src="refs/Profile.png" alt="Profile" width="150px" height="150px" />
+                            </figure>
+                        </header>
+                        <!--BODY-->
+                        <article>
+                            <h2>Bio</h2>
+                            <p class="centering">Photographer, Graphic Designer, Computer Scientist, Social Media Manager, and Gamer.</p>
+                        </article>
+                        <hr />
+                        <aside>
+                            <h2>Mottos</h2>
+                            <div class="centering">
+                                <p>
+                                    <q>The Force will be with you. Always</q> - 
+                                    <cite>Luke Skywalker</cite></p>
+                                <p>
+                                    <q>Do. Or do not. There is no try.</q> - 
+                                    <cite>Yoda</cite></p>
+                            </div>
+                        </aside>
+                        <hr />
+                        <section>
+                            <h2>Contact Info</h2>
+                            <div class="text">
+                                <p>Email: geoffery.powell@siu.edu</p>
+                                <p>Phone: (309) 231-8745</p>
+                            </div>
+                            <div class="centering">Photography Hours
+                                <table align="center" border="1" cellpadding="5">
+                                    <tbody>
+                                        <tr>
+                                            <th>
+                                                <p>Monday</p>
+                                            </th>
+                                            <th>
+                                                <p>Tuesday</p>
+                                            </th>
+                                            <th>
+                                                <p>Wednesday</p>
+                                            </th>
+                                            <th>
+                                                <p>Thursday</p>
+                                            </th>
+                                            <th>
+                                                <p>Friday</p>
+                                            </th>
+                                            <th>
+                                                <p>Saturday</p>
+                                            </th>
+                                            <th>
+                                                <p>Sunday</p>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>7:15am</p>
+                                                <p>5:30pm</p>
+                                            </td>
+                                            <td>
+                                                <p>7:15am</p>
+                                                <p>5:30pm</p>
+                                            </td>
+                                            <td>
+                                                <p>7:15am</p>
+                                                <p>5:30pm</p>
+                                            </td>
+                                            <td>
+                                                <p>7:15am</p>
+                                                <p>5:30pm</p>
+                                            </td>
+                                            <td>
+                                                <p>7:15am</p>
+                                                <p>5:30pm</p>
+                                            </td>
+                                            <td colspan="2">
+                                                <p>Unavailable</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table></div>
+                        </section>
+                        <section>
+                            <hr />
+                            <div class="centering">
+                                <div class="form">
+                                    <form name="comment" target="_self" method="POST" onsubmit="sendEmail(event);">
+                                        <fieldset>
+                                            <legend>Leave a Comment:</legend>
+                                            <p>Name: 
+                                                <input type="text" name="name" /></p>
+                                            <p>Address: 
+                                                <input type="text" name="address" /></p>
+                                            <p>Phone: 
+                                                <input type="tel" name="phone" id="phoneValue"/></p>
+                                            <p>Email: 
+                                                <input type="email" name="email" id="emailValue" /></p>
+                                            <p>Comments:</p>
+                                            <p>
+                                                <textarea name="comments" rows="3" cols="30"></textarea>
+                                            </p>
+                                            <p>
+                                                <button type="button" onclick="return validateForm(); post();"/>Submit</button> 
+                                            <input type="reset" />
+                                        </p>
+                                    </fieldset>
+                                </form>
+                                <script src="js/index.js"></script>
+                            </div>
+                        </div>
+                    </section>
+                    <footer>
+                        <hr />
+                        <table class="buttons_2" align="bottom" border="0" cellspacing="-1" cellpadding="0">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="https://www.facebook.com/geoffery10" target="_blank">
+                                            <img class="buttons_2" src="refs/Facebook_button.png" alt="Facebook" />
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://www.instagram.com/geoffery10/" target="_blank">
+                                            <img class="buttons_2" src="refs/instagram_button.png" alt="Instagram" />
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://github.com/Geoffery10" target="_blank">
+                                            <img class="buttons_2" src="refs/github_button.png" alt="Github" />
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://www.linkedin.com/in/geoffery-powell-a13a8117b/" target="_blank">
+                                            <img class="buttons_2" src="refs/linkedin_button.png" alt="Facebook" />
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </footer>
+                </div>
+            </body>
+        </html>
+        

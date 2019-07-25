@@ -1,0 +1,101 @@
+body {
+	background-color: #383b3c;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: Arial;
+	font-size: 20px;
+	max-width: 864px;
+	margin: auto;
+}
+h2 {
+	margin-left:1in; 
+	text-align: left;
+}
+a {
+  color: #c8b9f7;
+}
+a:visited {
+  color: #a28ee2;
+}
+figure figcaption {
+    text-align: center;
+}
+.main {
+	background-color: #5b5b5b;
+	color: white;
+	display: block;
+}
+.banner {
+	display: block;
+	width: 100%;
+    padding: 0in;
+    margin: 0in;
+}
+.buttons {
+    width: 284px;
+    margin: 0in;
+    padding: 0px;
+    vertical-align:middle;
+    max-width: 288px;
+	background-color: #5b5b5b;
+    border-collapse: collapse;
+}
+.buttons:hover {
+	background-color: #693b6c;
+}
+.buttons_2 {
+    width: 216px;
+	height: auto;
+	background-color: #5b5b5b;
+}
+table.buttons_2 {
+	padding:0;
+	margin:0;
+	border-collapse: collapse;
+}
+.text {
+	margin-left: 0.5in;
+}
+.images {
+	width:3in;
+	height:3in;
+	margin:auto;
+}
+.table {
+	display:table;
+	background-color: #5b5b5b;
+	max-width: 864px;
+}
+.caption {
+	display:table-caption;
+	
+}
+.group {
+	display: table-row-group; 
+}
+.row {
+	display:table-row; 
+}
+.cell {
+	display: table-cell;
+	vertical-align:middle;
+}
+table.images {
+	padding:0; 
+	margin:0;
+	border-collapse: collapse;
+	background-color: #5b5b5b;;
+}
+.centering {
+	color: white;
+	text-align: center;
+	margin-left: 0in;
+}
+.form {
+	width: 4.5in;
+	margin: auto;
+	align: center;
+}
+#gameScreen {
+    border: 1px solid black
+}
